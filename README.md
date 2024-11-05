@@ -56,35 +56,35 @@ The main menu presents options to manage each aspect of the chocolate house:
 Select option 4 to exit the program.
 
 ### 🧪Testing Instructions
-Use these test cases to ensure the application functions correctly.
+*Use these test cases to ensure the application functions correctly.
 
 ### Main Menu
-Verify that selecting each option (1-4) opens the corresponding module or exits the application.
+*Verify that selecting each option (1-4) opens the corresponding module or exits the application.
 
 ### Seasonal Flavors Management
-Add a seasonal flavor and confirm it appears in the list.
-Update a flavor and check that changes are saved.
-Delete a flavor and verify its removal from the list.
+*Add a seasonal flavor and confirm it appears in the list.
+*Update a flavor and check that changes are saved.
+*Delete a flavor and verify its removal from the list.
 
 ### Ingredient Inventory Management
-Add an ingredient and confirm it’s displayed in the inventory.
-Update the quantity of an existing ingredient and verify the update.
-Remove an ingredient and check that it no longer appears in the inventory.
+*Add an ingredient and confirm it’s displayed in the inventory.
+*Update the quantity of an existing ingredient and verify the update.
+*Remove an ingredient and check that it no longer appears in the inventory.
 
 ### Customer Suggestions Management
-Add a customer suggestion and confirm it’s recorded.
-View the list of suggestions and ensure the new entry is present.
-Delete a suggestion and check that it’s removed.
+*Add a customer suggestion and confirm it’s recorded.
+*View the list of suggestions and ensure the new entry is present.
+*Delete a suggestion and check that it’s removed.
 
 ### Data Persistence
-Exit and restart the application.
-Confirm that all previously added data for flavors, ingredients, and suggestions is still available.
+*Exit and restart the application.
+*Confirm that all previously added data for flavors, ingredients, and suggestions is still available.
 
 ### Error Handling & Validation
-Test the response to invalid inputs (e.g., entering letters instead of numbers).
-Try updating or deleting non-existent entries to confirm appropriate error messages.
+*Test the response to invalid inputs (e.g., entering letters instead of numbers).
+*Try updating or deleting non-existent entries to confirm appropriate error messages.
 
 ### Database Verification
-Use a SQLite browser to open the chocolate_house.db file.
-Confirm that the database tables (seasonal_flavors, ingredient_inventory, customer_suggestions) are correctly structured.
-Verify that the data in the database matches what appears in the application.
+*Use a SQLite browser to open the chocolate_house.db file.
+*Confirm that the database tables (seasonal_flavors, ingredient_inventory, customer_suggestions) are correctly structured.
+*Verify that the data in the database matches what appears in the application.
