@@ -39,7 +39,7 @@ Use this command to run the application:
 python app.py
 ```
 For Python 3, you may need to use:
-````
+```
 python3 app.py
 ```
 The main menu will display options for managing flavors, ingredients, and customer feedback.
